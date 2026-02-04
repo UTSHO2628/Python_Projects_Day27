@@ -33,7 +33,7 @@ class Bird:
 
     def draw(self):
         pygame.draw.circle(screen, BLACK, (int(self.x), int(self.y)), 5)
-        pygame.draw.line(screen, BLACK, (self.x - 10, self.y - 5), (self.x, self.y), 2)  # Wing 1
+        pygame.draw.line(screen, BLACK, (self.x - 10, self.y - 5), (self.x, self.y), 2)  # Wing 1..
         pygame.draw.line(screen, BLACK, (self.x - 10, self.y + 5), (self.x, self.y), 2)  # Wing 2
 
 # Draw people
