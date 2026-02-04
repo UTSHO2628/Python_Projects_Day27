@@ -16,7 +16,7 @@ BLUE = (135, 206, 250)
 BLACK = (0, 0, 0)
 BROWN = (139, 69, 19)
 
-# Clock for controlling the frame rate..
+# Clock for controlling the frame rate...
 clock = pygame.time.Clock()
 
 # Bird class
