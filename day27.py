@@ -19,7 +19,7 @@ BROWN = (139, 69, 19)
 # Clock for controlling the frame rate....
 clock = pygame.time.Clock()
 
-# Bird class.
+# Bird class..
 class Bird:
     def __init__(self):
         self.x = random.randint(0, WIDTH)
